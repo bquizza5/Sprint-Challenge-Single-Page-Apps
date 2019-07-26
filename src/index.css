@@ -83,3 +83,7 @@ header h1 {
   text-align: center;
   vertical-align: bottom;
 }
+
+h2 {
+  margin-bottom: 0px;
+}

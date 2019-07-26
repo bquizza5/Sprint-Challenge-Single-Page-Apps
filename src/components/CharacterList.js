@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Card } from 'semantic-ui-react'
 import axios from 'axios'
 
 export default function CharacterList() {
@@ -34,15 +35,15 @@ export default function CharacterList() {
         // console.log(characters)
         characters.map((person) => {
           return (
-            <div className='card'>
+            <Card>
               <img src={person.image}></img>
-              <div className='charData'>
-                <h3>{person.name}</h3>
+              <div>
+                <h2>{person.name}</h2>
                 <p>{`${person.species} ${person.status}`}</p>
                 <p>Location: {person.location.name}</p>
-                <p>Location: {person.origin.name}</p>
+                <p>Origin: {person.origin.name}</p>
               </div>
-            </div>
+            </Card>
           )
         })
       }
