@@ -25,13 +25,13 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: its faster after initial download, you dont have page refreshes 
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: asynchronous JavaScript and XML
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer:  an input element whos value is controlled by react
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer: fetch, axios, jQuery
 
 
 ## Project Set Up
@@ -72,6 +72,8 @@ Create 3 page components to display data from 3 API endpoints:
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
 - `https://rickandmortyapi.com/api/locations/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
 - `https://rickandmortyapi.com/api/episodes/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
+
+
 
 - [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
 - [ ] Create a component to show a grid of data from the API.
