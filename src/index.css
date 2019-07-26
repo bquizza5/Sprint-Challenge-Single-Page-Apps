@@ -43,15 +43,15 @@ header h1 {
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
-  border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
   margin-bottom: 15px;
 
 
 }
 
 .card img {
-  border-radius: 15px 15px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .charData {
@@ -59,4 +59,27 @@ header h1 {
   padding-bottom: 10px;
 
 
+}
+
+.location-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px 0px 0 10px;
+  margin-bottom: 15px;
+  
+}
+
+.residents {
+  box-sizing: border-box;
+  padding-top: 10px;
+  align-self: flex-end;
+  background: lightgrey;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px 0px 5px 0;
+  text-align: center;
+  vertical-align: bottom;
 }

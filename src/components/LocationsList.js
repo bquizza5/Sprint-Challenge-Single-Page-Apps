@@ -13,7 +13,7 @@ export default function LocationList() {
     axios
       .get('https://rickandmortyapi.com/api/location/')
       .then(loc => {
-        console.log(loc.data.results)
+        // console.log(loc.data.results)
         setLocations(loc.data.results)
 
       })
@@ -33,18 +33,20 @@ export default function LocationList() {
       {
         //   console.log(locations)
         
-        // locations.map((location) => {
-        //   return (
-        //     <div className='card'>
-        //       <div className='charData'>
-        //         <h3>{location.name}</h3>
-        //         <p>{`${person.species} ${person.status}`}</p>
-        //         <p>Location: {person.location.name}</p>
-        //         <p>Location: {person.origin.name}</p>
-        //       </div>
-        //     </div>
-        //   )
-        // })
+        locations.map((location) => {
+          return (
+            <div className='location-card'>
+              
+                <h3>{location.name}</h3>
+                <p>{`${location.type} - ${location.dimension}`}</p>
+                
+                <div className='residents'>{location.residents.length} residents</div>
+                
+                
+              
+            </div>
+          )
+        })
       }
 
     </section>
