@@ -38,3 +38,52 @@ header h1 {
   text-align: center;
 
 }
+
+.card {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  margin-bottom: 15px;
+
+
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.charData {
+  padding-left: 5px;
+  padding-bottom: 10px;
+
+
+}
+
+.location-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px 0px 0 10px;
+  margin-bottom: 15px;
+  
+}
+
+.residents {
+  box-sizing: border-box;
+  padding-top: 10px;
+  align-self: flex-end;
+  background: lightgrey;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px 0px 5px 0;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
